@@ -76,7 +76,7 @@ export function Header({ currentPage = "home" }: HeaderProps) {
                 onClick={() => scrollToSection(link.id, link.hash)}
                 className="px-4 py-2 text-gray-700 hover:text-[#303591] hover:bg-[#F2F2FA] rounded-lg transition-all"
               >
-                {link.label}
+                {link.label} aa
               </button>
             ))}
           </nav>
