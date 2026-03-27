@@ -55,7 +55,6 @@ export function MetaTags({
     // Standard meta tags
     updateOrCreateMetaTag('meta[name="description"]', "name", "description", description);
     updateOrCreateMetaTag('meta[name="title"]', "name", "title", title);
-    updateOrCreateMetaTag('meta[name="google-site-verification"]', "name", "google-site-verification", "kcyUTdF0z2Y-YOSkcmTwL_q8hjYqJY3jNGe47zXe7IU");
     
     // Open Graph meta tags
     updateOrCreateMetaTag('meta[property="og:title"]', "property", "og:title", title);
